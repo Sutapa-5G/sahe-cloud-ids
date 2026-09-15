@@ -1,0 +1,237 @@
+{
+  "columns_assessed": [
+    {
+      "column": "flow_id",
+      "risk_level": "HIGH",
+      "reason": "column name matches known high-risk identifier pattern (flow/IP/timestamp)",
+      "example_values_sample": [
+        "synthetic-07-0000",
+        "synthetic-07-0001",
+        "synthetic-07-0002"
+      ],
+      "n_unique": 320,
+      "is_constant": false
+    },
+    {
+      "column": "source_ip",
+      "risk_level": "HIGH",
+      "reason": "column name matches known high-risk identifier pattern (flow/IP/timestamp)",
+      "example_values_sample": [
+        "192.0.2.1",
+        "192.0.2.2",
+        "192.0.2.3"
+      ],
+      "n_unique": 40,
+      "is_constant": false
+    },
+    {
+      "column": "destination_ip",
+      "risk_level": "HIGH",
+      "reason": "column name matches known high-risk identifier pattern (flow/IP/timestamp)",
+      "example_values_sample": [
+        "198.51.100.8",
+        "198.51.100.7",
+        "198.51.100.6"
+      ],
+      "n_unique": 8,
+      "is_constant": false
+    },
+    {
+      "column": "source_port",
+      "risk_level": "MEDIUM",
+      "reason": "column name matches known port-identifier pattern; may carry legitimate signal but also overfitting risk",
+      "example_values_sample": [
+        "10007",
+        "10024",
+        "10041"
+      ],
+      "n_unique": 320,
+      "is_constant": false
+    },
+    {
+      "column": "destination_port",
+      "risk_level": "MEDIUM",
+      "reason": "column name matches known port-identifier pattern; may carry legitimate signal but also overfitting risk",
+      "example_values_sample": [
+        "443",
+        "80",
+        "22"
+      ],
+      "n_unique": 3,
+      "is_constant": false
+    },
+    {
+      "column": "protocol",
+      "risk_level": "NONE",
+      "reason": "no known leakage indicator matched",
+      "example_values_sample": [
+        "17",
+        "6"
+      ],
+      "n_unique": 2,
+      "is_constant": false
+    },
+    {
+      "column": "timestamp",
+      "risk_level": "HIGH",
+      "reason": "column name matches known high-risk identifier pattern (flow/IP/timestamp)",
+      "example_values_sample": [
+        "2017-07-10 09:00:00",
+        "2017-07-10 09:01:00",
+        "2017-07-10 09:02:00"
+      ],
+      "n_unique": 320,
+      "is_constant": false
+    },
+    {
+      "column": "flow_duration",
+      "risk_level": "NONE",
+      "reason": "no known leakage indicator matched",
+      "example_values_sample": [
+        "112607",
+        "66375",
+        "89349"
+      ],
+      "n_unique": 317,
+      "is_constant": false
+    },
+    {
+      "column": "total_fwd_packets",
+      "risk_level": "NONE",
+      "reason": "no known leakage indicator matched",
+      "example_values_sample": [
+        "39",
+        "16",
+        "27"
+      ],
+      "n_unique": 25,
+      "is_constant": false
+    },
+    {
+      "column": "total_backward_packets",
+      "risk_level": "NONE",
+      "reason": "no known leakage indicator matched",
+      "example_values_sample": [
+        "19",
+        "12",
+        "9"
+      ],
+      "n_unique": 12,
+      "is_constant": false
+    },
+    {
+      "column": "total_length_of_fwd_packets",
+      "risk_level": "NONE",
+      "reason": "no known leakage indicator matched",
+      "example_values_sample": [
+        "7020",
+        "1600",
+        "3780"
+      ],
+      "n_unique": 25,
+      "is_constant": false
+    },
+    {
+      "column": "total_length_of_bwd_packets",
+      "risk_level": "NONE",
+      "reason": "no known leakage indicator matched",
+      "example_values_sample": [
+        "2565",
+        "900",
+        "945"
+      ],
+      "n_unique": 18,
+      "is_constant": false
+    },
+    {
+      "column": "fwd_packet_length_mean",
+      "risk_level": "NONE",
+      "reason": "no known leakage indicator matched",
+      "example_values_sample": [
+        "180.0",
+        "100.0",
+        "140.0"
+      ],
+      "n_unique": 5,
+      "is_constant": false
+    },
+    {
+      "column": "bwd_packet_length_mean",
+      "risk_level": "NONE",
+      "reason": "no known leakage indicator matched",
+      "example_values_sample": [
+        "135.0",
+        "75.0",
+        "105.0"
+      ],
+      "n_unique": 5,
+      "is_constant": false
+    },
+    {
+      "column": "flow_bytes_s",
+      "risk_level": "NONE",
+      "reason": "no known leakage indicator matched",
+      "example_values_sample": [
+        "85119.042",
+        "37664.783",
+        "52882.517"
+      ],
+      "n_unique": 320,
+      "is_constant": false
+    },
+    {
+      "column": "flow_packets_s",
+      "risk_level": "NONE",
+      "reason": "no known leakage indicator matched",
+      "example_values_sample": [
+        "515.066",
+        "421.846",
+        "402.914"
+      ],
+      "n_unique": 318,
+      "is_constant": false
+    },
+    {
+      "column": "label",
+      "risk_level": "NONE",
+      "reason": "no known leakage indicator matched",
+      "example_values_sample": [
+        "Heartbleed",
+        "BENIGN",
+        "DoS Hulk"
+      ],
+      "n_unique": 8,
+      "is_constant": false
+    },
+    {
+      "column": "source_file",
+      "risk_level": "NONE",
+      "reason": "no known leakage indicator matched",
+      "example_values_sample": [
+        "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+        "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+        "Friday-WorkingHours-Morning.pcap_ISCX.csv"
+      ],
+      "n_unique": 8,
+      "is_constant": false
+    }
+  ],
+  "high_risk_columns": [
+    "flow_id",
+    "source_ip",
+    "destination_ip",
+    "timestamp"
+  ],
+  "medium_risk_columns": [
+    "source_port",
+    "destination_port"
+  ],
+  "low_risk_columns": [],
+  "constant_or_near_constant_columns": [],
+  "label_encoding_suspects": [
+    "label"
+  ],
+  "notes": [
+    "Column 'label' contains values overlapping the label set \u2014 review manually."
+  ]
+}

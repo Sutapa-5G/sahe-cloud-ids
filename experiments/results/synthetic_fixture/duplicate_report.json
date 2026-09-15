@@ -1,0 +1,9 @@
+{
+  "total_rows_considered": 320,
+  "exact_duplicate_rows": 0,
+  "exact_duplicate_pct": 0.0,
+  "feature_duplicate_rows_excluding_label": 0,
+  "feature_duplicate_pct_excluding_label": 0.0,
+  "duplicates_across_files": 0,
+  "analysis_scope_note": "full dataset analyzed"
+}

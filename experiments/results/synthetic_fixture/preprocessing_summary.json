@@ -1,0 +1,78 @@
+{
+  "input_rows_total": 320,
+  "cleaning_report": {
+    "input_rows": 320,
+    "nan_rows": 0,
+    "infinite_rows": 0,
+    "empty_label_rows": 0,
+    "whitespace_label_rows": 0,
+    "numeric_columns_checked": [
+      "source_port",
+      "destination_port",
+      "protocol",
+      "flow_duration",
+      "total_fwd_packets",
+      "total_backward_packets",
+      "total_length_of_fwd_packets",
+      "total_length_of_bwd_packets",
+      "fwd_packet_length_mean",
+      "bwd_packet_length_mean",
+      "flow_bytes_s",
+      "flow_packets_s"
+    ]
+  },
+  "duplicate_report": {
+    "total_rows_considered": 320,
+    "exact_duplicate_rows": 0,
+    "exact_duplicate_pct": 0.0,
+    "feature_duplicate_rows_excluding_label": 0,
+    "feature_duplicate_pct_excluding_label": 0.0,
+    "duplicates_across_files": 0,
+    "analysis_scope_note": "full dataset analyzed"
+  },
+  "leakage_summary": {
+    "high_risk_columns": [
+      "flow_id",
+      "source_ip",
+      "destination_ip",
+      "timestamp"
+    ],
+    "medium_risk_columns": [
+      "source_port",
+      "destination_port"
+    ]
+  },
+  "feature_summary": {
+    "retained_feature_count": 12,
+    "removed_feature_count": 4
+  },
+  "split_summary": {
+    "strategy": "split-by-source-file (day/session aware)",
+    "seed": 42,
+    "train_files": [
+      "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+      "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+      "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+      "Monday-WorkingHours.pcap_ISCX.csv",
+      "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv"
+    ],
+    "validation_files": [
+      "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+      "Tuesday-WorkingHours.pcap_ISCX.csv"
+    ],
+    "test_files": [
+      "Wednesday-workingHours.pcap_ISCX.csv"
+    ],
+    "train_rows": 200,
+    "validation_rows": 80,
+    "test_rows": 40,
+    "dedup_policy": "exact-duplicate rows (per '_is_exact_duplicate') are NOT automatically dropped at split time; cross-split contamination is prevented by construction since each source_file is assigned to exactly one split. Within-split duplicate handling is a separate, explicit decision made in pipeline.py.",
+    "rationale": "No explicit file_assignment supplied; derived deterministically by alphabetically sorting discovered source_file values and slicing 60/20/20. This is a placeholder policy \u2014 replace with an explicit, documented assignment once real CICIDS2017 filenames/days are confirmed (see docs/methodology/preprocessing.md)."
+  },
+  "processed_outputs": {
+    "train": "ml\\data\\synthetic_processed\\train.parquet",
+    "validation": "ml\\data\\synthetic_processed\\validation.parquet",
+    "test": "ml\\data\\synthetic_processed\\test.parquet"
+  },
+  "drop_medium_risk_policy_applied": false
+}

@@ -1,0 +1,134 @@
+{
+  "overall_counts": {
+    "Heartbleed": 40,
+    "BENIGN": 40,
+    "DoS Hulk": 40,
+    "DDoS": 40,
+    "PortScan": 40,
+    "Bot": 40,
+    "FTP-Patator": 40,
+    "SSH-Patator": 40
+  },
+  "overall_percentages": {
+    "Heartbleed": 12.5,
+    "BENIGN": 12.5,
+    "DoS Hulk": 12.5,
+    "DDoS": 12.5,
+    "PortScan": 12.5,
+    "Bot": 12.5,
+    "FTP-Patator": 12.5,
+    "SSH-Patator": 12.5
+  },
+  "per_source_file_counts": {
+    "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv": {
+      "Heartbleed": 5,
+      "BENIGN": 5,
+      "DoS Hulk": 5,
+      "DDoS": 5,
+      "PortScan": 5,
+      "Bot": 5,
+      "FTP-Patator": 5,
+      "SSH-Patator": 5
+    },
+    "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv": {
+      "SSH-Patator": 5,
+      "Heartbleed": 5,
+      "BENIGN": 5,
+      "DoS Hulk": 5,
+      "DDoS": 5,
+      "PortScan": 5,
+      "Bot": 5,
+      "FTP-Patator": 5
+    },
+    "Friday-WorkingHours-Morning.pcap_ISCX.csv": {
+      "FTP-Patator": 5,
+      "SSH-Patator": 5,
+      "Heartbleed": 5,
+      "BENIGN": 5,
+      "DoS Hulk": 5,
+      "DDoS": 5,
+      "PortScan": 5,
+      "Bot": 5
+    },
+    "Monday-WorkingHours.pcap_ISCX.csv": {
+      "BENIGN": 5,
+      "DoS Hulk": 5,
+      "DDoS": 5,
+      "PortScan": 5,
+      "Bot": 5,
+      "FTP-Patator": 5,
+      "SSH-Patator": 5,
+      "Heartbleed": 5
+    },
+    "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv": {
+      "Bot": 5,
+      "FTP-Patator": 5,
+      "SSH-Patator": 5,
+      "Heartbleed": 5,
+      "BENIGN": 5,
+      "DoS Hulk": 5,
+      "DDoS": 5,
+      "PortScan": 5
+    },
+    "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv": {
+      "PortScan": 5,
+      "Bot": 5,
+      "FTP-Patator": 5,
+      "SSH-Patator": 5,
+      "Heartbleed": 5,
+      "BENIGN": 5,
+      "DoS Hulk": 5,
+      "DDoS": 5
+    },
+    "Tuesday-WorkingHours.pcap_ISCX.csv": {
+      "DoS Hulk": 5,
+      "DDoS": 5,
+      "PortScan": 5,
+      "Bot": 5,
+      "FTP-Patator": 5,
+      "SSH-Patator": 5,
+      "Heartbleed": 5,
+      "BENIGN": 5
+    },
+    "Wednesday-workingHours.pcap_ISCX.csv": {
+      "DDoS": 5,
+      "PortScan": 5,
+      "Bot": 5,
+      "FTP-Patator": 5,
+      "SSH-Patator": 5,
+      "Heartbleed": 5,
+      "BENIGN": 5,
+      "DoS Hulk": 5
+    }
+  },
+  "train_counts": {
+    "Heartbleed": 25,
+    "BENIGN": 25,
+    "DoS Hulk": 25,
+    "DDoS": 25,
+    "PortScan": 25,
+    "Bot": 25,
+    "FTP-Patator": 25,
+    "SSH-Patator": 25
+  },
+  "validation_counts": {
+    "PortScan": 10,
+    "Bot": 10,
+    "FTP-Patator": 10,
+    "SSH-Patator": 10,
+    "Heartbleed": 10,
+    "BENIGN": 10,
+    "DoS Hulk": 10,
+    "DDoS": 10
+  },
+  "test_counts": {
+    "DDoS": 5,
+    "PortScan": 5,
+    "Bot": 5,
+    "FTP-Patator": 5,
+    "SSH-Patator": 5,
+    "Heartbleed": 5,
+    "BENIGN": 5,
+    "DoS Hulk": 5
+  }
+}

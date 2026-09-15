@@ -1,0 +1,3132 @@
+{
+  "results": [
+    {
+      "algorithm": "3DES",
+      "payload_size_bytes": 1024,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 2.8583400012394123e-05,
+        "median": 2.4386000006870745e-05,
+        "stdev": 1.252911881832756e-05,
+        "min": 1.841800002466698e-05,
+        "max": 4.9691000015172904e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.00013623039999401953,
+        "median": 0.00012082099999588536,
+        "stdev": 2.7558231170216446e-05,
+        "min": 0.00011455999998588595,
+        "max": 0.00018120200002158526,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0002638283999999658,
+        "median": 0.0002527569999983825,
+        "stdev": 4.4651309523448853e-05,
+        "min": 0.00022158100000524428,
+        "max": 0.0003385450000337187,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 1032,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 3.777367241523579,
+        "median": 3.863641758709944,
+        "stdev": 0.5649249880690114,
+        "min": 2.8845869822408705,
+        "max": 4.407248365053354,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "3DES",
+      "payload_size_bytes": 10240,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 1.9759400004204508e-05,
+        "median": 1.8730000022060267e-05,
+        "stdev": 2.4912200241984617e-06,
+        "min": 1.825900000085312e-05,
+        "max": 2.4195999969833792e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.0005227429999763444,
+        "median": 0.0005157269999926939,
+        "stdev": 1.0320079375247341e-05,
+        "min": 0.000514842999962184,
+        "max": 0.0005348709999566381,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0010116611999819725,
+        "median": 0.001015696999957072,
+        "stdev": 1.632787336147049e-05,
+        "min": 0.000990188000002945,
+        "max": 0.0010322389999828374,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 10248,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 9.655074632916266,
+        "median": 9.614703007307043,
+        "stdev": 0.15614046163624756,
+        "min": 9.460623944805775,
+        "max": 9.862394817924429,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "3DES",
+      "payload_size_bytes": 51200,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 2.0163600015621342e-05,
+        "median": 1.964800003406708e-05,
+        "stdev": 1.428779460823892e-06,
+        "min": 1.9038000004911737e-05,
+        "max": 2.265799997758222e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.002260316399997464,
+        "median": 0.0022770719999698485,
+        "stdev": 5.8959372245245684e-05,
+        "min": 0.002177702999972553,
+        "max": 0.002326964000019416,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.004424140200001148,
+        "median": 0.004374164000012115,
+        "stdev": 0.00012899627158680744,
+        "min": 0.004307518000018717,
+        "max": 0.004603383000016947,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 51208,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 11.044168844296937,
+        "median": 11.162847346342012,
+        "stdev": 0.31813027876696115,
+        "min": 10.607009019197456,
+        "max": 11.335559131682754,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "3DES",
+      "payload_size_bytes": 102400,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 2.230420002433675e-05,
+        "median": 2.1867999976166175e-05,
+        "stdev": 2.187165674203566e-06,
+        "min": 2.0599000038146187e-05,
+        "max": 2.599700002292593e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.00438552159999972,
+        "median": 0.004350435999981528,
+        "stdev": 0.00012053703273647526,
+        "min": 0.004258923000008963,
+        "max": 0.004576348999989932,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.008547947000045042,
+        "median": 0.008573971999965124,
+        "stdev": 0.00016158083977887365,
+        "min": 0.008355318000042189,
+        "max": 0.008733534000100462,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 102408,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 11.42779997891592,
+        "median": 11.389849418728826,
+        "stdev": 0.21645636266824964,
+        "min": 11.181756434322766,
+        "max": 11.687915409025354,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "3DES",
+      "payload_size_bytes": 256000,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 2.441079999471185e-05,
+        "median": 2.4418999998943036e-05,
+        "stdev": 6.47187155730994e-07,
+        "min": 2.3505000001478038e-05,
+        "max": 2.5036000010913995e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.010817470600011347,
+        "median": 0.010814051000011204,
+        "stdev": 2.000877564919993e-05,
+        "min": 0.010792700000024524,
+        "max": 0.010845953000000463,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.020705977400007215,
+        "median": 0.02072763300003544,
+        "stdev": 0.00010904941301168727,
+        "min": 0.020529311000018424,
+        "max": 0.02082763199996407,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 256008,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 11.791090954266847,
+        "median": 11.778509634919848,
+        "stdev": 0.06233276893416188,
+        "min": 11.721957877900914,
+        "max": 11.892295118904912,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "3DES",
+      "payload_size_bytes": 512000,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 3.0429999981151923e-05,
+        "median": 3.0234000007567374e-05,
+        "stdev": 2.5590714977736494e-06,
+        "min": 2.696699999660268e-05,
+        "max": 3.3710999957747845e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.021926596000002973,
+        "median": 0.021667223999997987,
+        "stdev": 0.0006150473006564727,
+        "min": 0.02153367400001116,
+        "max": 0.023017475000017384,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.041953029199999034,
+        "median": 0.04165809200003423,
+        "stdev": 0.0008854106994461639,
+        "min": 0.041333430000008775,
+        "max": 0.04348375000000715,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 512008,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 11.642812632604896,
+        "median": 11.721162121385655,
+        "stdev": 0.2400272305857906,
+        "min": 11.229051082299014,
+        "max": 11.81322842067296,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "3DES",
+      "payload_size_bytes": 1048576,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 3.0075400013629404e-05,
+        "median": 3.105899997990491e-05,
+        "stdev": 1.639739094340552e-06,
+        "min": 2.7991000024485402e-05,
+        "max": 3.142200000638695e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.04338469639998266,
+        "median": 0.043477921999965474,
+        "stdev": 0.0004867780130479891,
+        "min": 0.04287270399998988,
+        "max": 0.04405179999997699,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.08265435819999993,
+        "median": 0.08247985999997809,
+        "stdev": 0.0007399474952063792,
+        "min": 0.08192452000002959,
+        "max": 0.08350325300006034,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 1048584,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 12.09935009254944,
+        "median": 12.12417188875279,
+        "stdev": 0.10814450899119277,
+        "min": 11.975581358480458,
+        "max": 12.206357754670261,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "3DES",
+      "payload_size_bytes": 5242880,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 4.655660000025818e-05,
+        "median": 3.9637000043057924e-05,
+        "stdev": 1.5213313475451182e-05,
+        "min": 3.7367999993875856e-05,
+        "max": 7.334999997965497e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.221807125600003,
+        "median": 0.22162864099999524,
+        "stdev": 0.002135862217284351,
+        "min": 0.21965088600001081,
+        "max": 0.22461132000000816,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.423536105200003,
+        "median": 0.42424549900005104,
+        "stdev": 0.004269901433091536,
+        "min": 0.41715388599999415,
+        "max": 0.42800078399994845,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 5242888,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 11.806333706540109,
+        "median": 11.785628867683988,
+        "stdev": 0.11961833513376216,
+        "min": 11.682221591445968,
+        "max": 11.985984471927154,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "3DES",
+      "payload_size_bytes": 10485760,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 4.303960000697771e-05,
+        "median": 3.914800004167773e-05,
+        "stdev": 9.194796684201134e-06,
+        "min": 3.663100000039776e-05,
+        "max": 5.9239999984583847e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.4447112911999966,
+        "median": 0.44453699100000676,
+        "stdev": 0.008149816481631414,
+        "min": 0.4338097179999636,
+        "max": 0.4536603959999752,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.8500347586000089,
+        "median": 0.8486968840000486,
+        "stdev": 0.012367564319787878,
+        "min": 0.8354331489999822,
+        "max": 0.8649328349999905,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 10485768,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 11.766215804360412,
+        "median": 11.782769783327527,
+        "stdev": 0.17106017105917568,
+        "min": 11.561591369114932,
+        "max": 11.96983865431968,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "3DES",
+      "payload_size_bytes": 52428800,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 4.586960000096951e-05,
+        "median": 4.612499998302155e-05,
+        "stdev": 1.3251285719353622e-06,
+        "min": 4.4265000042287284e-05,
+        "max": 4.7626999958083616e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 2.34399594439999,
+        "median": 2.359035894999977,
+        "stdev": 0.06205870033537732,
+        "min": 2.251442200999975,
+        "max": 2.414341011000033,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 4.449672568599999,
+        "median": 4.4400426119999565,
+        "stdev": 0.06953730573400549,
+        "min": 4.360811099999921,
+        "max": 4.549511550000091,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 52428808,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 11.2389707837924,
+        "median": 11.261153184626348,
+        "stdev": 0.17510494017902647,
+        "min": 10.99019080410929,
+        "max": 11.465756909305451,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "3DES",
+      "payload_size_bytes": 104857600,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 5.064839999704418e-05,
+        "median": 4.790899998852183e-05,
+        "stdev": 7.717562814109302e-06,
+        "min": 4.457500000398795e-05,
+        "max": 6.35819999956766e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 4.860359029200003,
+        "median": 4.858600652000007,
+        "stdev": 0.028340611968551744,
+        "min": 4.821837380000034,
+        "max": 4.893312643000002,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 9.34888793539999,
+        "median": 9.373850189999985,
+        "stdev": 0.04998619110044146,
+        "min": 9.28556689100003,
+        "max": 9.396459518000029,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 104857608,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 10.69670446573109,
+        "median": 10.667975055402518,
+        "stdev": 0.057299150464206,
+        "min": 10.64230626529473,
+        "max": 10.76940171492645,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "payload_size_bytes": 1024,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 9.718800004065998e-06,
+        "median": 9.25400001960952e-06,
+        "stdev": 5.487400072992301e-06,
+        "min": 4.204000049412571e-06,
+        "max": 1.80769999928998e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 5.249200002026555e-05,
+        "median": 1.9314000041958934e-05,
+        "stdev": 8.032420289924527e-05,
+        "min": 1.0050000014416582e-05,
+        "max": 0.0001957420000167076,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 6.221080002433155e-05,
+        "median": 2.8568000061568455e-05,
+        "stdev": 8.524213829073503e-05,
+        "min": 1.4254000063829153e-05,
+        "max": 0.0002138190000096074,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 1040,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 38.0212712181559,
+        "median": 34.18378948107522,
+        "stdev": 25.221998892498593,
+        "min": 4.567239113250556,
+        "max": 68.51147015763792,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "payload_size_bytes": 10240,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 5.6639999797880595e-06,
+        "median": 5.063000003246998e-06,
+        "stdev": 1.9655794417641988e-06,
+        "min": 4.30999995160164e-06,
+        "max": 9.105999993153091e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 1.1414800007969461e-05,
+        "median": 1.1635000021215092e-05,
+        "stdev": 8.404214513493359e-07,
+        "min": 1.0363000001234468e-05,
+        "max": 1.2523000009423413e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 1.707879998775752e-05,
+        "median": 1.669800002446209e-05,
+        "stdev": 2.7206114756994447e-06,
+        "min": 1.4672999952836108e-05,
+        "max": 2.1629000002576504e-05,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 10256,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 582.2021159393677,
+        "median": 584.8380036946725,
+        "stdev": 82.16703112072577,
+        "min": 451.5060797464836,
+        "max": 665.5506734403299,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "payload_size_bytes": 51200,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 8.079000008365255e-06,
+        "median": 6.846000019322673e-06,
+        "stdev": 2.242369174566327e-06,
+        "min": 6.1110000046937785e-06,
+        "max": 1.1293000000023312e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 2.0517200005087945e-05,
+        "median": 1.873899998372508e-05,
+        "stdev": 3.3796958101538185e-06,
+        "min": 1.770199997963573e-05,
+        "max": 2.4262000010821794e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 2.85962000134532e-05,
+        "median": 2.7316000057453493e-05,
+        "stdev": 4.466420185499831e-06,
+        "min": 2.4547999998958403e-05,
+        "max": 3.5555000010845106e-05,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 51216,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 1738.5444257121624,
+        "median": 1787.5283678906228,
+        "stdev": 249.7863832463457,
+        "min": 1373.3124732135082,
+        "max": 1989.0877058038059,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "payload_size_bytes": 102400,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 1.2047000006987219e-05,
+        "median": 1.3646000013523008e-05,
+        "stdev": 3.816714230654152e-06,
+        "min": 7.685000014134857e-06,
+        "max": 1.5554000015072234e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 3.2434599995667666e-05,
+        "median": 3.197299997736991e-05,
+        "stdev": 4.659532387919499e-06,
+        "min": 2.654400003621049e-05,
+        "max": 3.867699996362717e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 4.4481600002654884e-05,
+        "median": 4.561899999089292e-05,
+        "stdev": 8.232821715791065e-06,
+        "min": 3.422900005034535e-05,
+        "max": 5.382399996278764e-05,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 102416,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 2259.692985213852,
+        "median": 2140.6924750541543,
+        "stdev": 436.79288107538235,
+        "min": 1814.362553275801,
+        "max": 2853.026669092389,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "payload_size_bytes": 256000,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 1.735820000021704e-05,
+        "median": 1.772400003119401e-05,
+        "stdev": 2.1467843769671456e-06,
+        "min": 1.4313999997739302e-05,
+        "max": 2.0228999972005113e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 8.920660001194846e-05,
+        "median": 9.493200002452795e-05,
+        "stdev": 1.6932016075587723e-05,
+        "min": 5.944999998064304e-05,
+        "max": 0.00010170400003062241,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0001065648000121655,
+        "median": 0.00011157200003708567,
+        "stdev": 1.8671403225324097e-05,
+        "min": 7.376399997838234e-05,
+        "max": 0.00011942800006181642,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 256016,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 2365.393734315857,
+        "median": 2188.1890162303225,
+        "stdev": 531.9003674674996,
+        "min": 2044.2494630541566,
+        "max": 3309.7530647951453,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "payload_size_bytes": 512000,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 3.1262599998171935e-05,
+        "median": 2.736499999400621e-05,
+        "stdev": 1.0785945877881771e-05,
+        "min": 2.1890999960305635e-05,
+        "max": 4.9541999999291875e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.0002313113999889538,
+        "median": 0.0002225439999961054,
+        "stdev": 1.7013308736082365e-05,
+        "min": 0.00021421599996074292,
+        "max": 0.0002521440000009534,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0002625739999871257,
+        "median": 0.0002687949999540251,
+        "stdev": 1.5411149547178293e-05,
+        "min": 0.00024576999999226246,
+        "max": 0.0002795089999949596,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 512016,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 1864.7954105334138,
+        "median": 1816.5562978608828,
+        "stdev": 110.79536664338407,
+        "min": 1746.9249648805771,
+        "max": 1986.740651891494,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "payload_size_bytes": 1048576,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 2.7028599993172976e-05,
+        "median": 2.779999999802385e-05,
+        "stdev": 1.919635184903011e-06,
+        "min": 2.3633000012068806e-05,
+        "max": 2.83149999518173e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.0004713788000117347,
+        "median": 0.0004808799999977964,
+        "stdev": 2.871243117315447e-05,
+        "min": 0.0004258029999846258,
+        "max": 0.0004947710000351435,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0004984074000049076,
+        "median": 0.0005091949999496137,
+        "stdev": 2.8045566552997882e-05,
+        "min": 0.00045360299998264964,
+        "max": 0.000522649000004094,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 1048592,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 2011.7270809845372,
+        "median": 1963.8841703059788,
+        "stdev": 118.62329118378908,
+        "min": 1913.3299786131167,
+        "max": 2204.570957507446,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "payload_size_bytes": 5242880,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 3.314599999839629e-05,
+        "median": 2.8398999972978345e-05,
+        "stdev": 1.056364261581054e-05,
+        "min": 2.815400000599766e-05,
+        "max": 5.2039000024706183e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.0029511726000123416,
+        "median": 0.00294517600002564,
+        "stdev": 0.00016342626294427745,
+        "min": 0.002757825000003322,
+        "max": 0.0031793510000284186,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.002984318600010738,
+        "median": 0.002997215000050346,
+        "stdev": 0.00016341127266533966,
+        "min": 0.0027862139999683677,
+        "max": 0.0032075050000344163,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 5242896,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 1679.4306775724099,
+        "median": 1668.2153265334691,
+        "stdev": 91.54631611056797,
+        "min": 1558.8440236091137,
+        "max": 1794.5498802521147,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "payload_size_bytes": 10485760,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 3.374120000216862e-05,
+        "median": 2.8695000025891204e-05,
+        "stdev": 8.623596778010286e-06,
+        "min": 2.761600001122133e-05,
+        "max": 4.791699996076204e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.006644816000016362,
+        "median": 0.006619629999988774,
+        "stdev": 0.0006939985869480904,
+        "min": 0.0056781350000392194,
+        "max": 0.0076241730000106145,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.006678557200018531,
+        "median": 0.006667546999949536,
+        "stdev": 0.000696853255287133,
+        "min": 0.005705751000050441,
+        "max": 0.007660221000037382,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 10485776,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 1510.6249392576542,
+        "median": 1499.8019511637017,
+        "stdev": 160.26278697566423,
+        "min": 1305.4453650816602,
+        "max": 1752.6176659148982,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "payload_size_bytes": 52428800,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 3.068839998832118e-05,
+        "median": 3.0984999966676696e-05,
+        "stdev": 1.484767103809971e-06,
+        "min": 2.8694999969047785e-05,
+        "max": 3.251600003295607e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.0339958251999974,
+        "median": 0.03399651900002709,
+        "stdev": 0.0013199706144976938,
+        "min": 0.03250621699999101,
+        "max": 0.03598412700000608,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.03402651359998572,
+        "median": 0.03402798100000837,
+        "stdev": 0.0013205934202331346,
+        "min": 0.03253720199995769,
+        "max": 0.03601664300003904,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 52428816,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 1471.1873879194352,
+        "median": 1469.3789796105655,
+        "stdev": 56.23489435760831,
+        "min": 1388.2470945430923,
+        "max": 1536.7025105620644,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "payload_size_bytes": 104857600,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 3.297340000472104e-05,
+        "median": 3.233299997873473e-05,
+        "stdev": 2.4895748106962227e-06,
+        "min": 3.086300000632036e-05,
+        "max": 3.728299998329021e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.06818746020001072,
+        "median": 0.06804718799998,
+        "stdev": 0.0025153896206402304,
+        "min": 0.06583618199999819,
+        "max": 0.07222809200004576,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.06822043360001544,
+        "median": 0.06808447099996329,
+        "stdev": 0.002514690624905271,
+        "min": 0.06586864100000867,
+        "max": 0.07225895500005208,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 104857616,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 1467.3906790961587,
+        "median": 1468.7637067790968,
+        "stdev": 52.72541262108885,
+        "min": 1383.911516571585,
+        "max": 1518.1731167033922,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "Blowfish",
+      "payload_size_bytes": 1024,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 1.3314000057107479e-06,
+        "median": 1.283000017338054e-06,
+        "stdev": 1.8871221382133244e-07,
+        "min": 1.1700000186465331e-06,
+        "max": 1.6349999896192458e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 8.633079999071924e-05,
+        "median": 8.368999999674998e-05,
+        "stdev": 2.7138290473534867e-05,
+        "min": 5.460799997081267e-05,
+        "max": 0.00012177299998938906,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.00014957759999560948,
+        "median": 0.00014945399999533038,
+        "stdev": 3.3756036151693537e-05,
+        "min": 0.00010453800001641866,
+        "max": 0.000189900000009402,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 1032,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 6.824186768202218,
+        "median": 6.534201159089166,
+        "stdev": 1.6624871181648662,
+        "min": 5.142509215121907,
+        "max": 9.34169871096273,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "Blowfish",
+      "payload_size_bytes": 10240,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 1.368600010209775e-06,
+        "median": 1.380000014705729e-06,
+        "stdev": 6.651541839982424e-08,
+        "min": 1.275999977679021e-06,
+        "max": 1.4569999962077418e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.00016074280000566432,
+        "median": 0.0001549539999814442,
+        "stdev": 1.553361119738117e-05,
+        "min": 0.00014917300001116018,
+        "max": 0.00018805300004487435,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.00027188680002154797,
+        "median": 0.00027115000000321743,
+        "stdev": 1.7378752030609906e-05,
+        "min": 0.0002505719999703615,
+        "max": 0.0002985550000857984,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 10248,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 36.03305075803838,
+        "median": 36.015581780874506,
+        "stdev": 2.254861911444735,
+        "min": 32.70963473126749,
+        "max": 38.97332902780482,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "Blowfish",
+      "payload_size_bytes": 51200,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 2.309199999217526e-06,
+        "median": 1.244000031874748e-06,
+        "stdev": 2.0568401002597957e-06,
+        "min": 1.1599999538702832e-06,
+        "max": 5.939999994097889e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.0005892462000019804,
+        "median": 0.0005904999999870597,
+        "stdev": 1.2041187874599567e-05,
+        "min": 0.0005717399999980444,
+        "max": 0.0006048100000271006,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0009474122000028729,
+        "median": 0.0009535599999708211,
+        "stdev": 3.2910071173567286e-05,
+        "min": 0.0009001839999882577,
+        "max": 0.000988414000062221,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 51208,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 51.58870844753969,
+        "median": 51.206138052659654,
+        "stdev": 1.8106184642448477,
+        "min": 49.40047894599454,
+        "max": 54.242382669139786,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "Blowfish",
+      "payload_size_bytes": 102400,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 2.3482000074181996e-06,
+        "median": 2.4689999804650142e-06,
+        "stdev": 4.804859067339229e-07,
+        "min": 1.6559999949095072e-06,
+        "max": 2.8850000148850086e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.0010615548000032504,
+        "median": 0.0010568980000016381,
+        "stdev": 1.9971959078240277e-05,
+        "min": 0.0010458490000360143,
+        "max": 0.0010961950000023535,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0017165274000035425,
+        "median": 0.0017111040000372668,
+        "stdev": 4.258108326065921e-05,
+        "min": 0.0016567120000559044,
+        "max": 0.0017590420000033191,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 102408,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 56.919964623109664,
+        "median": 57.072071596976635,
+        "stdev": 1.4219098330026139,
+        "min": 55.51672444422346,
+        "max": 58.945821601282944,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "Blowfish",
+      "payload_size_bytes": 256000,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 2.258199992866139e-06,
+        "median": 2.159999951345526e-06,
+        "stdev": 2.436569427978055e-07,
+        "min": 2.0690000042122847e-06,
+        "max": 2.6750000188258127e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.0027099860000021183,
+        "median": 0.0027641259999882095,
+        "stdev": 7.84624723394264e-05,
+        "min": 0.0026056080000103066,
+        "max": 0.0027705769999784025,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.00422188359999609,
+        "median": 0.0042786299999875155,
+        "stdev": 0.00013104486815945332,
+        "min": 0.00405034999999998,
+        "max": 0.004361195000001317,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 256008,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 57.87246524677066,
+        "median": 57.060466785095315,
+        "stdev": 1.8143945798561663,
+        "min": 55.980212992064395,
+        "max": 60.27642672855462,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "Blowfish",
+      "payload_size_bytes": 512000,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 3.267600015988137e-06,
+        "median": 3.410999966035888e-06,
+        "stdev": 5.552520232966462e-07,
+        "min": 2.5570000161678763e-06,
+        "max": 3.90800005334313e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.005571994199999608,
+        "median": 0.005574730000034833,
+        "stdev": 0.0001254497040871576,
+        "min": 0.005413365999970665,
+        "max": 0.005715550999980223,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.008568752200017116,
+        "median": 0.008537521999983255,
+        "stdev": 0.0001710026209758285,
+        "min": 0.008348120999983166,
+        "max": 0.008752298999979757,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 512008,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 57.00212691403043,
+        "median": 57.19238556585361,
+        "stdev": 1.13933905814435,
+        "min": 55.78891329022572,
+        "max": 58.48995839913971,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "Blowfish",
+      "payload_size_bytes": 1048576,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 4.581599989705865e-06,
+        "median": 4.663000026994268e-06,
+        "stdev": 2.3354291861247058e-07,
+        "min": 4.2579999899317045e-06,
+        "max": 4.807999971490062e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.01120313140000917,
+        "median": 0.01122894500002758,
+        "stdev": 7.626760631656195e-05,
+        "min": 0.011087877000022672,
+        "max": 0.011289504999979272,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.01734845299998824,
+        "median": 0.01741125099999863,
+        "stdev": 0.00018722917917708982,
+        "min": 0.01701633799996216,
+        "max": 0.017458040999997593,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 1048584,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 57.64747436818385,
+        "median": 57.4341269332157,
+        "stdev": 0.6309118181010429,
+        "min": 57.28019541254015,
+        "max": 58.767050819172944,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "Blowfish",
+      "payload_size_bytes": 5242880,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 5.730200007292296e-06,
+        "median": 5.5670000165264355e-06,
+        "stdev": 5.707995994298833e-07,
+        "min": 5.216000033669843e-06,
+        "max": 6.7039999862572586e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.05751650279999012,
+        "median": 0.05752890599995908,
+        "stdev": 0.0005733946376159356,
+        "min": 0.056873374000019794,
+        "max": 0.05814107599996987,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.08838140580000982,
+        "median": 0.08804448900002626,
+        "stdev": 0.0007583207799150305,
+        "min": 0.0876210799999626,
+        "max": 0.0894147139999859,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 5242888,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 56.5763066614228,
+        "median": 56.78947151364021,
+        "stdev": 0.48383348714748925,
+        "min": 55.91920810707719,
+        "max": 57.063893757097425,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "Blowfish",
+      "payload_size_bytes": 10485760,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 6.175400017127686e-06,
+        "median": 6.331000008685805e-06,
+        "stdev": 3.440941667286847e-07,
+        "min": 5.566000027101836e-06,
+        "max": 6.390000010014774e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.11734580739998819,
+        "median": 0.11743212999999741,
+        "stdev": 0.002230008751254069,
+        "min": 0.11420385699994995,
+        "max": 0.11993104999999105,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.18198297980001144,
+        "median": 0.1819669289999979,
+        "stdev": 0.004269052853183589,
+        "min": 0.17688834500000894,
+        "max": 0.18784290399997872,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 10485768,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 54.974304050704,
+        "median": 54.95504075908274,
+        "stdev": 1.2849507678068282,
+        "min": 53.23597424793397,
+        "max": 56.532837140850035,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "Blowfish",
+      "payload_size_bytes": 52428800,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 7.2656000043025415e-06,
+        "median": 7.422000010137708e-06,
+        "stdev": 7.363533711415237e-07,
+        "min": 6.213999995452468e-06,
+        "max": 8.096999977169617e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.5896208195999975,
+        "median": 0.587478697999984,
+        "stdev": 0.015429790443725607,
+        "min": 0.5672207530000151,
+        "max": 0.6079040579999742,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.9755524680000122,
+        "median": 0.9722361180000121,
+        "stdev": 0.030897901491234978,
+        "min": 0.9329602980000118,
+        "max": 1.018854569000041,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 52428808,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 51.29416943315497,
+        "median": 51.427836380790964,
+        "stdev": 1.625317969384969,
+        "min": 49.074717355463896,
+        "max": 53.59284859943672,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "Blowfish",
+      "payload_size_bytes": 104857600,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 8.275800007595535e-06,
+        "median": 8.244000014201447e-06,
+        "stdev": 6.567417233018344e-07,
+        "min": 7.379000010132586e-06,
+        "max": 9.046999991824123e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 1.1811320579999915,
+        "median": 1.1765648309999506,
+        "stdev": 0.009695997742072457,
+        "min": 1.1704873090000092,
+        "max": 1.193308256000023,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 1.9275093398000194,
+        "median": 1.9307113500000241,
+        "stdev": 0.013383244034653604,
+        "min": 1.906491889999927,
+        "max": 1.9415135650000366,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 104857608,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 51.882433028385,
+        "median": 51.794381381763124,
+        "stdev": 0.36186042501790805,
+        "min": 51.50620722034364,
+        "max": 52.45236055003823,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "DES",
+      "payload_size_bytes": 1024,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 1.175000011244265e-06,
+        "median": 1.0970000516863365e-06,
+        "stdev": 2.7503362633918896e-07,
+        "min": 9.400000067216752e-07,
+        "max": 1.6509999909430917e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.0006352932000027068,
+        "median": 5.182699999295437e-05,
+        "stdev": 0.0013048183571795666,
+        "min": 4.862000002958666e-05,
+        "max": 0.002969414999995479,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0006804628000281809,
+        "median": 9.802599998920414e-05,
+        "stdev": 0.001319100426281514,
+        "min": 7.968400001345799e-05,
+        "max": 0.003040077000036945,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 1032,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 8.791899664583553,
+        "median": 9.962280416497169,
+        "stdev": 4.8778260292978475,
+        "min": 0.3212295280639708,
+        "max": 12.255440236873982,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "DES",
+      "payload_size_bytes": 10240,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 9.55199993768474e-07,
+        "median": 8.439999987785995e-07,
+        "stdev": 2.5158437219092293e-07,
+        "min": 7.630000027347705e-07,
+        "max": 1.382999982979527e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.00020054259998687486,
+        "median": 0.00019924800000126197,
+        "stdev": 8.325688917176641e-06,
+        "min": 0.00019024799996714137,
+        "max": 0.0002133959999923718,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.00036112640000283134,
+        "median": 0.00036016900003232877,
+        "stdev": 1.5490110931354935e-05,
+        "min": 0.0003434849999734979,
+        "max": 0.0003856029999838029,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 10248,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 27.081051904824523,
+        "median": 27.114007588447194,
+        "stdev": 1.1353033817133873,
+        "min": 25.325593940944966,
+        "max": 28.431008634302753,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "DES",
+      "payload_size_bytes": 51200,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 1.1756000048990245e-06,
+        "median": 1.1260000292168115e-06,
+        "stdev": 2.9246931481963135e-07,
+        "min": 8.160000106727239e-07,
+        "max": 1.473999986956187e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.000827418200003649,
+        "median": 0.0008270069999980478,
+        "stdev": 1.4333168315423573e-05,
+        "min": 0.0008059700000444536,
+        "max": 0.0008412539999653745,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0015077782000162188,
+        "median": 0.0015002200000822086,
+        "stdev": 3.1081767432499916e-05,
+        "min": 0.0014641490000144586,
+        "max": 0.0015441120000332376,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 51208,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 32.39521844039045,
+        "median": 32.54730972612305,
+        "stdev": 0.6708737378564686,
+        "min": 31.62213945552457,
+        "max": 33.34915025691908,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "DES",
+      "payload_size_bytes": 102400,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 9.728000122777303e-07,
+        "median": 9.629999908611353e-07,
+        "stdev": 8.105059613911028e-08,
+        "min": 8.670000397614785e-07,
+        "max": 1.0900000120273035e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.0016514038000195797,
+        "median": 0.0016432420000001002,
+        "stdev": 3.0576436985440305e-05,
+        "min": 0.001611930000024131,
+        "max": 0.0016894590000333665,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.003012194000029922,
+        "median": 0.00297726100006912,
+        "stdev": 0.00015493079305935954,
+        "min": 0.0028891610000414403,
+        "max": 0.003274894000014683,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 102408,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 32.48570476883365,
+        "median": 32.800701718033054,
+        "stdev": 1.59019509204069,
+        "min": 29.819667445591264,
+        "max": 33.80090275294429,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "DES",
+      "payload_size_bytes": 256000,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 9.63399986630975e-07,
+        "median": 9.149999868895975e-07,
+        "stdev": 8.392438282825428e-08,
+        "min": 8.83999973666505e-07,
+        "max": 1.0699999961616413e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.003987059200005661,
+        "median": 0.004005796999990707,
+        "stdev": 8.082969646172444e-05,
+        "min": 0.0038819619999799215,
+        "max": 0.004061898000031761,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.007176566600003298,
+        "median": 0.007179259999986698,
+        "stdev": 9.65618141926678e-05,
+        "min": 0.007069801999989522,
+        "max": 0.007284755000000587,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 256008,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 34.024068894938004,
+        "median": 34.00637739829068,
+        "stdev": 0.45789646158482195,
+        "min": 33.513910213861735,
+        "max": 34.5328801288016,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "DES",
+      "payload_size_bytes": 512000,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 1.182399989829719e-06,
+        "median": 1.142999963121838e-06,
+        "stdev": 1.374947373904096e-07,
+        "min": 1.0050000014416582e-06,
+        "max": 1.3690000173482986e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.008222502000012354,
+        "median": 0.008149213000024247,
+        "stdev": 0.00027905196572504767,
+        "min": 0.00800125199998547,
+        "max": 0.008701532000031875,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.014661042399995949,
+        "median": 0.014552766000008432,
+        "stdev": 0.00031982889836413615,
+        "min": 0.014456051000024672,
+        "max": 0.015220456000065496,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 512008,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 33.317036669177064,
+        "median": 33.55247036884377,
+        "stdev": 0.708368472875383,
+        "min": 32.08059272323371,
+        "max": 33.77694572322459,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "DES",
+      "payload_size_bytes": 1048576,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 1.457400014714949e-06,
+        "median": 1.4780000014980033e-06,
+        "stdev": 1.6022421371022468e-07,
+        "min": 1.2710000305560243e-06,
+        "max": 1.6239999922618154e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.016208370000003924,
+        "median": 0.016347762000009425,
+        "stdev": 0.00031852776464350626,
+        "min": 0.015819120000003295,
+        "max": 0.016522222000048714,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.028913134400011132,
+        "median": 0.029161772999998448,
+        "stdev": 0.000444971806595451,
+        "min": 0.028396934000056717,
+        "max": 0.0293337969999925,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 1048584,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 34.59294437482373,
+        "median": 34.29146780616025,
+        "stdev": 0.5350107672244524,
+        "min": 34.09037023063382,
+        "max": 35.21506934509207,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "DES",
+      "payload_size_bytes": 5242880,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 1.8298000100003264e-06,
+        "median": 1.83400004516443e-06,
+        "stdev": 1.0904908208662081e-07,
+        "min": 1.683999983015383e-06,
+        "max": 1.9770000108110253e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.08218932839999979,
+        "median": 0.08247080099999948,
+        "stdev": 0.0012282010195403704,
+        "min": 0.08056039299998474,
+        "max": 0.08336655499999779,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.1473208108000108,
+        "median": 0.1480800420000037,
+        "stdev": 0.0024579900278533682,
+        "min": 0.14449725299999727,
+        "max": 0.14955928900008075,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 5242888,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 33.94712566406734,
+        "median": 33.765522567854724,
+        "stdev": 0.5686045565309112,
+        "min": 33.43155770148988,
+        "max": 34.60273393571084,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "DES",
+      "payload_size_bytes": 10485760,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 2.2451999939221423e-06,
+        "median": 2.3659999897063244e-06,
+        "stdev": 2.52047022101358e-07,
+        "min": 1.8289999843545957e-06,
+        "max": 2.435999988392723e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.16954543300000752,
+        "median": 0.16649229200004356,
+        "stdev": 0.008974303211569267,
+        "min": 0.16368065400001797,
+        "max": 0.18546680599996535,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.3012116884000079,
+        "median": 0.29773208800003204,
+        "stdev": 0.010188210815985454,
+        "min": 0.29497041100006527,
+        "max": 0.31917969099993115,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 10485768,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 33.22842630959843,
+        "median": 33.587243038442416,
+        "stdev": 1.0785807341253444,
+        "min": 31.33031418343643,
+        "max": 33.90170548325875,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "DES",
+      "payload_size_bytes": 52428800,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 4.3422000089776706e-06,
+        "median": 4.2319999806750275e-06,
+        "stdev": 5.117164276071079e-07,
+        "min": 3.803000026891823e-06,
+        "max": 5.153000017799059e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.9261617810000076,
+        "median": 0.8634719240000095,
+        "stdev": 0.14353976850639943,
+        "min": 0.8554866210000114,
+        "max": 1.1828144680000037,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 1.6444605852000223,
+        "median": 1.5889938360000428,
+        "stdev": 0.14808562755779783,
+        "min": 1.5588702310000144,
+        "max": 1.908284230999982,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 52428808,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 30.58256871468539,
+        "median": 31.466453089499996,
+        "stdev": 2.4637937337025817,
+        "min": 26.201547540849784,
+        "max": 32.07451076150516,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "DES",
+      "payload_size_bytes": 104857600,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 5.218199999035278e-06,
+        "median": 5.224999995334656e-06,
+        "stdev": 1.3611648559050662e-07,
+        "min": 5.066000028364215e-06,
+        "max": 5.428999998002837e-06,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "min": null,
+        "max": null,
+        "n": 0
+      },
+      "payload_encryption_seconds": {
+        "mean": 1.9679295453999999,
+        "median": 2.044128016000002,
+        "stdev": 0.2733400566553874,
+        "min": 1.6943307559999994,
+        "max": 2.342089857000019,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 3.5527654513999662,
+        "median": 3.5208244069999637,
+        "stdev": 0.13861051232424632,
+        "min": 3.4385475849999807,
+        "max": 3.7926344510000263,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 104857608,
+      "ciphertext_expansion_bytes": 8,
+      "throughput_mb_per_second": {
+        "mean": 28.179979053529877,
+        "median": 28.402438872323188,
+        "stdev": 1.0540762109348085,
+        "min": 26.36689649160161,
+        "max": 29.082046279141593,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "ECDH-X25519-Hybrid",
+      "payload_size_bytes": 1024,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.0005975005999857786,
+        "median": 5.594399999608868e-05,
+        "stdev": 0.0012023323062301506,
+        "min": 4.658299997117865e-05,
+        "max": 0.0027481760000114264,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.00016412019999734184,
+        "median": 0.00012027899998656721,
+        "stdev": 0.00010608979785630359,
+        "min": 0.00011228199997503907,
+        "max": 0.00035376400001041475,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 1.3245200000255863e-05,
+        "median": 1.0408000036932208e-05,
+        "stdev": 6.9071205808503355e-06,
+        "min": 8.74299996667105e-06,
+        "max": 2.541899999641828e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0007748659999833763,
+        "median": 0.00018590499996662402,
+        "stdev": 0.0013151929335387465,
+        "min": 0.0001684949999685159,
+        "max": 0.0031273590000182594,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 1040,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 4.278833847202614,
+        "median": 5.253019016031439,
+        "stdev": 2.2631280396405544,
+        "min": 0.3122642779400441,
+        "max": 5.795795128534825,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "ECDH-X25519-Hybrid",
+      "payload_size_bytes": 10240,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 5.086719999098932e-05,
+        "median": 4.770299995016103e-05,
+        "stdev": 6.008860026589765e-06,
+        "min": 4.58239999829857e-05,
+        "max": 5.89740000123129e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.00011158639998711805,
+        "median": 0.0001090860000090288,
+        "stdev": 1.0677961925211617e-05,
+        "min": 9.779199996273746e-05,
+        "max": 0.00012293999998291838,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 1.1452600017491931e-05,
+        "median": 1.0796000026402908e-05,
+        "stdev": 2.8321632685732223e-06,
+        "min": 8.892000039395498e-06,
+        "max": 1.6296000012516743e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0001739061999955993,
+        "median": 0.000175691000038114,
+        "stdev": 1.2539433631235938e-05,
+        "min": 0.00015250799998511866,
+        "max": 0.0001843150000127025,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 10256,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 56.40880324448662,
+        "median": 55.58409365238668,
+        "stdev": 4.411863435305251,
+        "min": 52.983343728546124,
+        "max": 64.03352611635393,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "ECDH-X25519-Hybrid",
+      "payload_size_bytes": 51200,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 5.493840000099226e-05,
+        "median": 5.5045000010522926e-05,
+        "stdev": 3.8111452651391675e-06,
+        "min": 4.8902000003181456e-05,
+        "max": 5.830399999240399e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.00010840999998436018,
+        "median": 0.0001049789999569839,
+        "stdev": 1.0168864709924696e-05,
+        "min": 9.750599997460085e-05,
+        "max": 0.0001197060000208694,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 1.554719999603549e-05,
+        "median": 1.5392000022984575e-05,
+        "stdev": 2.0523516168757777e-06,
+        "min": 1.387199995406263e-05,
+        "max": 1.8959999977141706e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.00017889559998138794,
+        "median": 0.00017356000006429895,
+        "stdev": 1.3620667711499425e-05,
+        "min": 0.0001619119999531904,
+        "max": 0.00019319400001904796,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 51216,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 274.2140333269519,
+        "median": 281.33282427927287,
+        "stdev": 20.908918386676,
+        "min": 252.74141533994737,
+        "max": 301.5719959861929,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "ECDH-X25519-Hybrid",
+      "payload_size_bytes": 102400,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 5.694459999858736e-05,
+        "median": 5.490499995630671e-05,
+        "stdev": 7.440173074264465e-06,
+        "min": 5.0192999992759724e-05,
+        "max": 6.973000000698448e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.00012375039999596994,
+        "median": 0.00011684399999012385,
+        "stdev": 2.1309820001863373e-05,
+        "min": 9.989199998017284e-05,
+        "max": 0.00014642200000025696,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 2.3195599987957392e-05,
+        "median": 2.1817999993345438e-05,
+        "stdev": 5.387296469237492e-06,
+        "min": 1.8399999987650517e-05,
+        "max": 3.247299997610753e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.00020389059998251468,
+        "median": 0.00019269799997800874,
+        "stdev": 3.0352038840884105e-05,
+        "min": 0.00016848499996058308,
+        "max": 0.00023797000000058688,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 102416,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 487.5047278218112,
+        "median": 506.7839313908023,
+        "stdev": 71.99741182004243,
+        "min": 410.3721057266007,
+        "max": 579.613912353305,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "ECDH-X25519-Hybrid",
+      "payload_size_bytes": 256000,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 6.895279999525883e-05,
+        "median": 6.407299997590599e-05,
+        "stdev": 1.5163762212448196e-05,
+        "min": 5.799300004127872e-05,
+        "max": 9.5655999984956e-05,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.00011379400001487738,
+        "median": 0.00010947700002361671,
+        "stdev": 9.71070909954691e-06,
+        "min": 0.0001044100000058279,
+        "max": 0.00012838500003908848,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 3.511859998752698e-05,
+        "median": 3.575399995270345e-05,
+        "stdev": 1.1485803466997902e-06,
+        "min": 3.3709999968323245e-05,
+        "max": 3.611900001487811e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0002178653999976632,
+        "median": 0.0002075969999850713,
+        "stdev": 2.182065153530198e-05,
+        "min": 0.00019611300001542986,
+        "max": 0.00025047200000472003,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 256016,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 1129.2233271664772,
+        "median": 1176.0315660513236,
+        "stdev": 107.81657521087084,
+        "min": 974.7222244218887,
+        "max": 1244.897711935422,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "ECDH-X25519-Hybrid",
+      "payload_size_bytes": 512000,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 8.672499999420324e-05,
+        "median": 7.975400001214439e-05,
+        "stdev": 1.9509692416774097e-05,
+        "min": 7.218399997555025e-05,
+        "max": 0.00012101099997607889,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.00013364080000428659,
+        "median": 0.00012947000004714937,
+        "stdev": 1.0553316246494385e-05,
+        "min": 0.0001223460000119303,
+        "max": 0.00014918300001909301,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 6.824779999305974e-05,
+        "median": 6.679000000531232e-05,
+        "stdev": 4.162432252421312e-06,
+        "min": 6.430199999840625e-05,
+        "max": 7.486300000891788e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.00028861359999154956,
+        "median": 0.00027720100001715764,
+        "stdev": 3.2231490058753137e-05,
+        "min": 0.00026405799997064605,
+        "max": 0.0003450570000040898,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 512016,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 1706.8728670712067,
+        "median": 1761.4700162329043,
+        "stdev": 168.77331794444618,
+        "min": 1415.074176133835,
+        "max": 1849.1439382797707,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "ECDH-X25519-Hybrid",
+      "payload_size_bytes": 1048576,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 8.975759999430011e-05,
+        "median": 8.273599996755365e-05,
+        "stdev": 1.7615039974178413e-05,
+        "min": 7.91950000120778e-05,
+        "max": 0.00012112199999592121,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.000135232799982532,
+        "median": 0.00012720799998078292,
+        "stdev": 1.8158467472785255e-05,
+        "min": 0.0001261839999529002,
+        "max": 0.00016769699999485965,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.00013644499999827532,
+        "median": 0.0001339180000172746,
+        "stdev": 8.41228125409512e-06,
+        "min": 0.00012999900002341747,
+        "max": 0.00015121199999157398,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0003614353999751074,
+        "median": 0.0003445669999564416,
+        "stdev": 2.9042717428214944e-05,
+        "min": 0.00033815199998343815,
+        "max": 0.000402674999975261,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 1048592,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 2780.544763978909,
+        "median": 2902.1931877585926,
+        "stdev": 214.77862767688137,
+        "min": 2483.3923140533598,
+        "max": 2957.249994230339,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "ECDH-X25519-Hybrid",
+      "payload_size_bytes": 5242880,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 8.945460000404637e-05,
+        "median": 8.59830000194961e-05,
+        "stdev": 1.1400762114231375e-05,
+        "min": 7.987500003991954e-05,
+        "max": 0.00010840300001291325,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.00013781499999367952,
+        "median": 0.00012827199998355354,
+        "stdev": 2.2667459356917377e-05,
+        "min": 0.00012590699998327182,
+        "max": 0.00017825300000140487,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.0007751638000058847,
+        "median": 0.0007514719999903718,
+        "stdev": 6.811379233581518e-05,
+        "min": 0.0007177279999837083,
+        "max": 0.0008825369999954091,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0010024334000036106,
+        "median": 0.0009639190000143572,
+        "stdev": 9.417495305691329e-05,
+        "min": 0.0009235100000068996,
+        "max": 0.0011517489999732788,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 5242896,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 5021.062300453936,
+        "median": 5187.15784202358,
+        "stdev": 442.48032069311796,
+        "min": 4341.223652129069,
+        "max": 5414.126538925019,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "ECDH-X25519-Hybrid",
+      "payload_size_bytes": 10485760,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 9.701840000388983e-05,
+        "median": 9.623500000088825e-05,
+        "stdev": 1.1585818479572919e-05,
+        "min": 8.520099999032027e-05,
+        "max": 0.0001141189999884773,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.00013765520001243203,
+        "median": 0.00013100800003940094,
+        "stdev": 1.0113937391733164e-05,
+        "min": 0.00012977300002603442,
+        "max": 0.000149883000005957,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.001735226200003126,
+        "median": 0.0014840140000274005,
+        "stdev": 0.0004486712110468943,
+        "min": 0.001461512999981096,
+        "max": 0.002512151000019003,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.001969899800019448,
+        "median": 0.0017345770000360972,
+        "stdev": 0.0004513111603098293,
+        "min": 0.0017029310000680198,
+        "max": 0.0027558720000229187,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 10485776,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 5251.195258273128,
+        "median": 5765.094313940457,
+        "stdev": 958.2934473802306,
+        "min": 3628.615552506371,
+        "max": 5872.228528108639,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "ECDH-X25519-Hybrid",
+      "payload_size_bytes": 52428800,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.00011387719998765534,
+        "median": 0.00010953299999982846,
+        "stdev": 1.322392692531354e-05,
+        "min": 0.00010371600001235493,
+        "max": 0.00013707799996609538,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.00014778059997979653,
+        "median": 0.00014511299997366223,
+        "stdev": 1.7000948468704997e-05,
+        "min": 0.00013101599995479773,
+        "max": 0.00016888499999367923,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.03320431399999961,
+        "median": 0.032808983999984775,
+        "stdev": 0.0011247113930207392,
+        "min": 0.03243564399997467,
+        "max": 0.035158754999997655,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.03346597179996706,
+        "median": 0.03305781299997079,
+        "stdev": 0.001132044091191425,
+        "min": 0.032703737999895566,
+        "max": 0.035430541999971865,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 52428816,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 1495.3726403267653,
+        "median": 1512.5017495877353,
+        "stdev": 48.70002255723693,
+        "min": 1411.2118296141139,
+        "max": 1528.8772188720343,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "ECDH-X25519-Hybrid",
+      "payload_size_bytes": 104857600,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.00011229300000650255,
+        "median": 0.00011330400002407259,
+        "stdev": 2.371201913701256e-06,
+        "min": 0.00010922100000243518,
+        "max": 0.0001146139999832485,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.0001459942000110459,
+        "median": 0.00013937400001395872,
+        "stdev": 2.0690001270654135e-05,
+        "min": 0.00013185199998133612,
+        "max": 0.0001825190000204202,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.07004414499999712,
+        "median": 0.0682677059999719,
+        "stdev": 0.005697885802370573,
+        "min": 0.06478162199999815,
+        "max": 0.07884765099998958,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.07030243220001467,
+        "median": 0.06851754299998447,
+        "stdev": 0.005718312635574992,
+        "min": 0.06502269499998192,
+        "max": 0.07914478399999325,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 104857616,
+      "ciphertext_expansion_bytes": 16,
+      "throughput_mb_per_second": {
+        "mean": 1429.6351229508161,
+        "median": 1459.4802385138455,
+        "stdev": 110.95539718793825,
+        "min": 1263.5071440716615,
+        "max": 1537.9245661845885,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "RSA-OAEP-Hybrid",
+      "payload_size_bytes": 1024,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 9.72553999986303e-05,
+        "median": 8.784200002764919e-05,
+        "stdev": 3.0653991624611254e-05,
+        "min": 7.630300001437718e-05,
+        "max": 0.0001507659999901989,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 1.2168800003564683e-05,
+        "median": 1.1701999994784273e-05,
+        "stdev": 2.8822483781341705e-06,
+        "min": 8.691999994425714e-06,
+        "max": 1.541099999258222e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.000109424200002195,
+        "median": 9.810700004209139e-05,
+        "stdev": 3.073735550105848e-05,
+        "min": 8.499500000880289e-05,
+        "max": 0.00016246799998498318,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 1424,
+      "ciphertext_expansion_bytes": 400,
+      "throughput_mb_per_second": {
+        "mean": 9.384540601109322,
+        "median": 9.954055261918313,
+        "stdev": 2.075551120752725,
+        "min": 6.010799050214584,
+        "max": 11.489646448601187,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "RSA-OAEP-Hybrid",
+      "payload_size_bytes": 10240,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 8.463919999712743e-05,
+        "median": 8.364899997559405e-05,
+        "stdev": 5.731945117894845e-06,
+        "min": 7.731699997748365e-05,
+        "max": 9.228999999777443e-05,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 1.2963999984094698e-05,
+        "median": 1.0405000011814991e-05,
+        "stdev": 4.579876748770709e-06,
+        "min": 9.163999948214041e-06,
+        "max": 1.988899998650595e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 9.760319998122213e-05,
+        "median": 9.736499998780346e-05,
+        "stdev": 8.11269805305207e-06,
+        "min": 8.648099992569769e-05,
+        "max": 0.00010786500001813693,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 10640,
+      "ciphertext_expansion_bytes": 400,
+      "throughput_mb_per_second": {
+        "mean": 100.61866792285834,
+        "median": 100.29913214423358,
+        "stdev": 8.50874056579037,
+        "min": 90.53562321752155,
+        "max": 112.92220266174513,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "RSA-OAEP-Hybrid",
+      "payload_size_bytes": 51200,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 7.421479999720759e-05,
+        "median": 7.194099998741876e-05,
+        "stdev": 5.009201099764321e-06,
+        "min": 7.084699996084964e-05,
+        "max": 8.301399998345005e-05,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 1.4215400005923584e-05,
+        "median": 1.2867000009464391e-05,
+        "stdev": 3.301400129290737e-06,
+        "min": 1.139800002647462e-05,
+        "max": 1.9816000019545754e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 8.843020000313118e-05,
+        "median": 8.488400004580399e-05,
+        "stdev": 8.054288310161184e-06,
+        "min": 8.44340000298871e-05,
+        "max": 0.0001028300000029958,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 51600,
+      "ciphertext_expansion_bytes": 400,
+      "throughput_mb_per_second": {
+        "mean": 555.4517604897395,
+        "median": 575.2335537162718,
+        "stdev": 45.09906578505367,
+        "min": 474.8431877718318,
+        "max": 578.2993223430882,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "RSA-OAEP-Hybrid",
+      "payload_size_bytes": 102400,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 7.523279999759325e-05,
+        "median": 7.43400000260408e-05,
+        "stdev": 4.638432568209223e-06,
+        "min": 7.124100000055478e-05,
+        "max": 8.317999999007952e-05,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 1.952360000814224e-05,
+        "median": 1.9746000020859356e-05,
+        "stdev": 3.3554225325124305e-06,
+        "min": 1.5829000005851412e-05,
+        "max": 2.444900002274153e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 9.475640000573548e-05,
+        "median": 9.509400001661561e-05,
+        "stdev": 5.991832172884362e-06,
+        "min": 8.707000000640619e-05,
+        "max": 0.00010292600001093888,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 102800,
+      "ciphertext_expansion_bytes": 400,
+      "throughput_mb_per_second": {
+        "mean": 1033.9036918230217,
+        "median": 1026.9443916854555,
+        "stdev": 65.34295808822426,
+        "min": 948.8005945011093,
+        "max": 1121.5832088298487,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "RSA-OAEP-Hybrid",
+      "payload_size_bytes": 256000,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 8.636679999654006e-05,
+        "median": 8.012400002144204e-05,
+        "stdev": 1.6417711296844255e-05,
+        "min": 7.260099999939484e-05,
+        "max": 0.00011427699996602314,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 4.247120000400173e-05,
+        "median": 3.689699997266871e-05,
+        "stdev": 1.4847842995715079e-05,
+        "min": 3.22149999760768e-05,
+        "max": 6.787900002791503e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0001288380000005418,
+        "median": 0.00011933900003668896,
+        "stdev": 2.22583088685301e-05,
+        "min": 0.00010949799997206355,
+        "max": 0.0001571629999830293,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 256400,
+      "ciphertext_expansion_bytes": 400,
+      "throughput_mb_per_second": {
+        "mean": 1938.8182907644907,
+        "median": 2045.7740128955554,
+        "stdev": 318.14729906658874,
+        "min": 1553.4230386691695,
+        "max": 2229.635473362875,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "RSA-OAEP-Hybrid",
+      "payload_size_bytes": 512000,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 9.998600000926672e-05,
+        "median": 0.00010142799999357521,
+        "stdev": 4.2626681776230376e-06,
+        "min": 9.365900001512273e-05,
+        "max": 0.00010383099998989564,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 6.96729999958734e-05,
+        "median": 7.228500004430316e-05,
+        "stdev": 5.691542299934823e-06,
+        "min": 6.242999995720311e-05,
+        "max": 7.602699997732998e-05,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0001696590000051401,
+        "median": 0.0001696859999924527,
+        "stdev": 5.327670220108357e-06,
+        "min": 0.00016278599997576748,
+        "max": 0.00017584900007250326,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 512400,
+      "ciphertext_expansion_bytes": 400,
+      "throughput_mb_per_second": {
+        "mean": 2880.29597730816,
+        "median": 2877.557665462783,
+        "stdev": 90.79357851584948,
+        "min": 2776.707571829693,
+        "max": 2999.5285225552943,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "RSA-OAEP-Hybrid",
+      "payload_size_bytes": 1048576,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.00011853360000486645,
+        "median": 0.00010355000000572545,
+        "stdev": 2.1916571091036354e-05,
+        "min": 0.00010178000002269982,
+        "max": 0.0001459810000028483,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.00012761800001044322,
+        "median": 0.00012412699999231336,
+        "stdev": 5.711961288487208e-06,
+        "min": 0.00012401200001477264,
+        "max": 0.0001372160000414624,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0002461516000153097,
+        "median": 0.0002276769999980388,
+        "stdev": 2.7182199622317782e-05,
+        "min": 0.00022590399998989596,
+        "max": 0.0002831970000443107,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 1048976,
+      "ciphertext_expansion_bytes": 400,
+      "throughput_mb_per_second": {
+        "mean": 4100.5888006346595,
+        "median": 4392.187177486588,
+        "stdev": 430.9973232794823,
+        "min": 3531.110851610483,
+        "max": 4426.659112033108,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "RSA-OAEP-Hybrid",
+      "payload_size_bytes": 5242880,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.00011281059998964338,
+        "median": 0.00011057799997615803,
+        "stdev": 7.695290102896744e-06,
+        "min": 0.00010227600000689563,
+        "max": 0.00012114399999063608,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.0007300957999973434,
+        "median": 0.0006998659999908341,
+        "stdev": 6.142260515912104e-05,
+        "min": 0.0006963490000089223,
+        "max": 0.0008389550000060808,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0008429063999869868,
+        "median": 0.0008192929999495391,
+        "stdev": 5.532584689350459e-05,
+        "min": 0.0008103309999683006,
+        "max": 0.0009412310000129764,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 5243280,
+      "ciphertext_expansion_bytes": 400,
+      "throughput_mb_per_second": {
+        "mean": 5950.760175880398,
+        "median": 6102.822800033631,
+        "stdev": 360.04973386950377,
+        "min": 5312.192224789735,
+        "max": 6170.318055455851,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "RSA-OAEP-Hybrid",
+      "payload_size_bytes": 10485760,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.00012052520000906952,
+        "median": 0.00011393699998052398,
+        "stdev": 1.2009917349364256e-05,
+        "min": 0.00011079799998015005,
+        "max": 0.00013577100003203668,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.0015007235999860314,
+        "median": 0.001379579999991165,
+        "stdev": 0.00032356103572425443,
+        "min": 0.0012880649999829075,
+        "max": 0.002074767999999949,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0016212487999951008,
+        "median": 0.001493516999971689,
+        "stdev": 0.00032839352550605513,
+        "min": 0.0014238360000149441,
+        "max": 0.002205975000038052,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 10486160,
+      "ciphertext_expansion_bytes": 400,
+      "throughput_mb_per_second": {
+        "mean": 6332.63816613584,
+        "median": 6695.605071913851,
+        "stdev": 1016.7240763948321,
+        "min": 4533.142941251604,
+        "max": 7023.280771026328,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "RSA-OAEP-Hybrid",
+      "payload_size_bytes": 52428800,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.00014568179999514542,
+        "median": 0.00014122099997848636,
+        "stdev": 1.2641569409064424e-05,
+        "min": 0.00013481000002002475,
+        "max": 0.0001664030000370076,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.032153903800008266,
+        "median": 0.03244906300000139,
+        "stdev": 0.0018598829805683576,
+        "min": 0.029611469000030866,
+        "max": 0.034742389000030016,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.032299585600003414,
+        "median": 0.032590283999979874,
+        "stdev": 0.0018653685738457446,
+        "min": 0.029749105999997028,
+        "max": 0.03489072700000406,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 52429200,
+      "ciphertext_expansion_bytes": 400,
+      "throughput_mb_per_second": {
+        "mean": 1552.157958446683,
+        "median": 1534.1995792375076,
+        "stdev": 89.98497890446404,
+        "min": 1433.0455195156633,
+        "max": 1680.7227753333157,
+        "n": 5
+      }
+    },
+    {
+      "algorithm": "RSA-OAEP-Hybrid",
+      "payload_size_bytes": 104857600,
+      "n_repetitions": 5,
+      "key_generation_seconds": {
+        "mean": 0.0,
+        "median": 0.0,
+        "stdev": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 5
+      },
+      "key_exchange_seconds": {
+        "mean": 0.000160493199996381,
+        "median": 0.0001659569999787891,
+        "stdev": 1.1200696478040086e-05,
+        "min": 0.00014751399999113346,
+        "max": 0.000172466999970311,
+        "n": 5
+      },
+      "payload_encryption_seconds": {
+        "mean": 0.06657552979999082,
+        "median": 0.06599342399999841,
+        "stdev": 0.0018827792486118963,
+        "min": 0.06500848600001063,
+        "max": 0.0698328349999997,
+        "n": 5
+      },
+      "total_operation_seconds": {
+        "mean": 0.0667360229999872,
+        "median": 0.0661593809999772,
+        "stdev": 0.001884360116738784,
+        "min": 0.06518095299998095,
+        "max": 0.06999976500003413,
+        "n": 5
+      },
+      "ciphertext_size_bytes": 104858000,
+      "ciphertext_expansion_bytes": 400,
+      "throughput_mb_per_second": {
+        "mean": 1499.368142759789,
+        "median": 1511.5014452755304,
+        "stdev": 41.044848192574904,
+        "min": 1428.5762245052,
+        "max": 1534.1905172823913,
+        "n": 5
+      }
+    }
+  ],
+  "metadata": {
+    "repetitions": 5,
+    "payload_sizes_bytes": [
+      1024,
+      10240,
+      51200,
+      102400,
+      256000,
+      512000,
+      1048576,
+      5242880,
+      10485760,
+      52428800,
+      104857600
+    ],
+    "algorithms": [
+      "AES-256-GCM",
+      "ECDH-X25519-Hybrid",
+      "RSA-OAEP-Hybrid",
+      "DES",
+      "3DES",
+      "Blowfish"
+    ],
+    "rsa_keygen_seconds_measured_once": 0.21142151700001932,
+    "note": "RSA key generation cost is measured once (not per payload size/repetition) due to its high fixed cost relative to payload-size-dependent operations; see rsa_keygen_seconds_measured_once. DES/3DES/Blowfish are legacy algorithms included for historical/performance comparison only \u2014 see crypto/benchmarks/legacy_ciphers.py::LEGACY_DISCLAIMER."
+  }
+}

@@ -1,0 +1,57 @@
+services:
+  mongodb:
+    image: mongo:7
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh --quiet
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      MONGODB_URI: mongodb://mongodb:27017
+      MONGODB_DB_NAME: sahe_ids
+      APP_ENV: production
+      LOG_LEVEL: INFO
+      FIREWALL_MODE: simulated
+      # API_AUTH_TOKEN must be set for /encrypt, /decrypt, and
+      # /firewall/block|unblock to work — the app fails closed (503) on
+      # these routes otherwise (see backend/app/api/auth.py). Set a real
+      # value via a .env file or your deployment's secret manager; never
+      # commit a real token here.
+      API_AUTH_TOKEN: ${API_AUTH_TOKEN:-}
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    volumes:
+      # Mount ml/models and experiments/results read-only so a locally
+      # trained model (Phase 2/3) or benchmark run (Phase 7) is visible
+      # to the containerized backend without rebuilding the image.
+      - ./ml/models:/app/ml/models:ro
+      - ./experiments/results:/app/experiments/results:ro
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        VITE_API_BASE_URL: http://localhost:8000
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  mongo_data:

@@ -1,0 +1,235 @@
+{
+  "decisions": [
+    {
+      "column": "flow_id",
+      "category": "LEAKAGE_REMOVED",
+      "reason": "classified HIGH risk by leakage audit (identifier-like)",
+      "dtype": "str",
+      "missing_count": 0,
+      "leakage_risk": "HIGH"
+    },
+    {
+      "column": "source_ip",
+      "category": "LEAKAGE_REMOVED",
+      "reason": "classified HIGH risk by leakage audit (identifier-like)",
+      "dtype": "str",
+      "missing_count": 0,
+      "leakage_risk": "HIGH"
+    },
+    {
+      "column": "destination_ip",
+      "category": "LEAKAGE_REMOVED",
+      "reason": "classified HIGH risk by leakage audit (identifier-like)",
+      "dtype": "str",
+      "missing_count": 0,
+      "leakage_risk": "HIGH"
+    },
+    {
+      "column": "source_port",
+      "category": "FEATURE",
+      "reason": "retained as numeric ML feature (MEDIUM leakage risk retained by default policy; consider ablation)",
+      "dtype": "int64",
+      "missing_count": 0,
+      "leakage_risk": "MEDIUM"
+    },
+    {
+      "column": "destination_port",
+      "category": "FEATURE",
+      "reason": "retained as numeric ML feature (MEDIUM leakage risk retained by default policy; consider ablation)",
+      "dtype": "int64",
+      "missing_count": 0,
+      "leakage_risk": "MEDIUM"
+    },
+    {
+      "column": "protocol",
+      "category": "FEATURE",
+      "reason": "retained as numeric ML feature",
+      "dtype": "int64",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "timestamp",
+      "category": "LEAKAGE_REMOVED",
+      "reason": "classified HIGH risk by leakage audit (identifier-like)",
+      "dtype": "str",
+      "missing_count": 0,
+      "leakage_risk": "HIGH"
+    },
+    {
+      "column": "flow_duration",
+      "category": "FEATURE",
+      "reason": "retained as numeric ML feature",
+      "dtype": "int64",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "total_fwd_packets",
+      "category": "FEATURE",
+      "reason": "retained as numeric ML feature",
+      "dtype": "int64",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "total_backward_packets",
+      "category": "FEATURE",
+      "reason": "retained as numeric ML feature",
+      "dtype": "int64",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "total_length_of_fwd_packets",
+      "category": "FEATURE",
+      "reason": "retained as numeric ML feature",
+      "dtype": "int64",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "total_length_of_bwd_packets",
+      "category": "FEATURE",
+      "reason": "retained as numeric ML feature",
+      "dtype": "int64",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "fwd_packet_length_mean",
+      "category": "FEATURE",
+      "reason": "retained as numeric ML feature",
+      "dtype": "float64",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "bwd_packet_length_mean",
+      "category": "FEATURE",
+      "reason": "retained as numeric ML feature",
+      "dtype": "float64",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "flow_bytes_s",
+      "category": "FEATURE",
+      "reason": "retained as numeric ML feature",
+      "dtype": "float64",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "flow_packets_s",
+      "category": "FEATURE",
+      "reason": "retained as numeric ML feature",
+      "dtype": "float64",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "label",
+      "category": "METADATA",
+      "reason": "non-numeric column not currently used as an ML feature",
+      "dtype": "str",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "label_original",
+      "category": "LABEL",
+      "reason": "designated label column",
+      "dtype": "string",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "source_file",
+      "category": "METADATA",
+      "reason": "provenance/metadata column, not an ML feature",
+      "dtype": "str",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "_has_nan",
+      "category": "METADATA",
+      "reason": "internal pipeline flag column, not an ML feature",
+      "dtype": "bool",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "_has_inf",
+      "category": "METADATA",
+      "reason": "internal pipeline flag column, not an ML feature",
+      "dtype": "bool",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "_empty_label",
+      "category": "METADATA",
+      "reason": "internal pipeline flag column, not an ML feature",
+      "dtype": "boolean",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "_whitespace_label",
+      "category": "METADATA",
+      "reason": "internal pipeline flag column, not an ML feature",
+      "dtype": "bool[pyarrow]",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "_is_exact_duplicate",
+      "category": "METADATA",
+      "reason": "internal pipeline flag column, not an ML feature",
+      "dtype": "bool",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    },
+    {
+      "column": "_is_feature_duplicate",
+      "category": "METADATA",
+      "reason": "internal pipeline flag column, not an ML feature",
+      "dtype": "bool",
+      "missing_count": 0,
+      "leakage_risk": "NONE"
+    }
+  ],
+  "retained_features": [
+    "source_port",
+    "destination_port",
+    "protocol",
+    "flow_duration",
+    "total_fwd_packets",
+    "total_backward_packets",
+    "total_length_of_fwd_packets",
+    "total_length_of_bwd_packets",
+    "fwd_packet_length_mean",
+    "bwd_packet_length_mean",
+    "flow_bytes_s",
+    "flow_packets_s"
+  ],
+  "removed_features": [
+    "flow_id",
+    "source_ip",
+    "destination_ip",
+    "timestamp"
+  ],
+  "metadata_columns": [
+    "label",
+    "source_file",
+    "_has_nan",
+    "_has_inf",
+    "_empty_label",
+    "_whitespace_label",
+    "_is_exact_duplicate",
+    "_is_feature_duplicate"
+  ],
+  "label_column": "label_original"
+}

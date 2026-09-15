@@ -1,0 +1,32 @@
+{
+  "models_compared": [
+    "RandomForestClassifier",
+    "XGBoostClassifier"
+  ],
+  "splits": {
+    "validation": {
+      "random_forest": {
+        "accuracy": 0.7625,
+        "macro_f1": 0.7551515151515151,
+        "inference_throughput_rows_per_second": 4638.192032725636
+      },
+      "xgboost": {
+        "accuracy": 0.675,
+        "macro_f1": 0.6640343282448546,
+        "inference_throughput_rows_per_second": 13348.907058258043
+      }
+    },
+    "test": {
+      "random_forest": {
+        "accuracy": 0.65,
+        "macro_f1": 0.630924630924631,
+        "inference_throughput_rows_per_second": 2422.9942151033265
+      },
+      "xgboost": {
+        "accuracy": 0.65,
+        "macro_f1": 0.64375,
+        "inference_throughput_rows_per_second": 7812.194836192882
+      }
+    }
+  }
+}

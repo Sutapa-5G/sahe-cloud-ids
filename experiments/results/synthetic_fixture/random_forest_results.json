@@ -1,0 +1,324 @@
+{
+  "model": "RandomForestClassifier",
+  "training": {
+    "train_rows": 200,
+    "n_features": 12,
+    "feature_names": [
+      "source_port",
+      "destination_port",
+      "protocol",
+      "flow_duration",
+      "total_fwd_packets",
+      "total_backward_packets",
+      "total_length_of_fwd_packets",
+      "total_length_of_bwd_packets",
+      "fwd_packet_length_mean",
+      "bwd_packet_length_mean",
+      "flow_bytes_s",
+      "flow_packets_s"
+    ],
+    "training_time_seconds": 0.10528590000001259,
+    "config": {
+      "n_estimators": 50,
+      "max_depth": null,
+      "class_weight": "balanced",
+      "random_state": 42
+    },
+    "best_params_if_tuned": null
+  },
+  "evaluation": {
+    "validation": {
+      "accuracy": 0.7625,
+      "macro_precision": 0.7739583333333333,
+      "macro_recall": 0.7625,
+      "macro_f1": 0.7551515151515151,
+      "weighted_precision": 0.7739583333333334,
+      "weighted_recall": 0.7625,
+      "weighted_f1": 0.7551515151515151,
+      "per_class_precision": {
+        "BENIGN": 1.0,
+        "Bot": 1.0,
+        "DDoS": 0.4166666666666667,
+        "DoS Hulk": 0.6,
+        "FTP-Patator": 0.8,
+        "Heartbleed": 1.0,
+        "PortScan": 1.0,
+        "SSH-Patator": 0.375
+      },
+      "per_class_recall": {
+        "BENIGN": 1.0,
+        "Bot": 1.0,
+        "DDoS": 0.5,
+        "DoS Hulk": 0.9,
+        "FTP-Patator": 0.4,
+        "Heartbleed": 1.0,
+        "PortScan": 1.0,
+        "SSH-Patator": 0.3
+      },
+      "per_class_f1": {
+        "BENIGN": 1.0,
+        "Bot": 1.0,
+        "DDoS": 0.45454545454545453,
+        "DoS Hulk": 0.72,
+        "FTP-Patator": 0.5333333333333333,
+        "Heartbleed": 1.0,
+        "PortScan": 1.0,
+        "SSH-Patator": 0.3333333333333333
+      },
+      "per_class_support": {
+        "BENIGN": 10,
+        "Bot": 10,
+        "DDoS": 10,
+        "DoS Hulk": 10,
+        "FTP-Patator": 10,
+        "Heartbleed": 10,
+        "PortScan": 10,
+        "SSH-Patator": 10
+      },
+      "false_positive_rate_overall": 0.0,
+      "roc_auc_ovr_macro": 0.9550000000000001,
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          9,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "BENIGN",
+        "Bot",
+        "DDoS",
+        "DoS Hulk",
+        "FTP-Patator",
+        "Heartbleed",
+        "PortScan",
+        "SSH-Patator"
+      ],
+      "n_samples_evaluated": 80,
+      "inference_time_seconds": 0.017248100000074373,
+      "inference_throughput_rows_per_second": 4638.192032725636
+    },
+    "test": {
+      "accuracy": 0.65,
+      "macro_precision": 0.6197916666666667,
+      "macro_recall": 0.6499999999999999,
+      "macro_f1": 0.630924630924631,
+      "weighted_precision": 0.6197916666666666,
+      "weighted_recall": 0.65,
+      "weighted_f1": 0.6309246309246309,
+      "per_class_precision": {
+        "BENIGN": 1.0,
+        "Bot": 1.0,
+        "DDoS": 0.3333333333333333,
+        "DoS Hulk": 0.0,
+        "FTP-Patator": 0.375,
+        "Heartbleed": 1.0,
+        "PortScan": 1.0,
+        "SSH-Patator": 0.25
+      },
+      "per_class_recall": {
+        "BENIGN": 1.0,
+        "Bot": 1.0,
+        "DDoS": 0.4,
+        "DoS Hulk": 0.0,
+        "FTP-Patator": 0.6,
+        "Heartbleed": 1.0,
+        "PortScan": 1.0,
+        "SSH-Patator": 0.2
+      },
+      "per_class_f1": {
+        "BENIGN": 1.0,
+        "Bot": 1.0,
+        "DDoS": 0.36363636363636365,
+        "DoS Hulk": 0.0,
+        "FTP-Patator": 0.46153846153846156,
+        "Heartbleed": 1.0,
+        "PortScan": 1.0,
+        "SSH-Patator": 0.2222222222222222
+      },
+      "per_class_support": {
+        "BENIGN": 5,
+        "Bot": 5,
+        "DDoS": 5,
+        "DoS Hulk": 5,
+        "FTP-Patator": 5,
+        "Heartbleed": 5,
+        "PortScan": 5,
+        "SSH-Patator": 5
+      },
+      "false_positive_rate_overall": 0.0,
+      "roc_auc_ovr_macro": 0.94,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "BENIGN",
+        "Bot",
+        "DDoS",
+        "DoS Hulk",
+        "FTP-Patator",
+        "Heartbleed",
+        "PortScan",
+        "SSH-Patator"
+      ],
+      "n_samples_evaluated": 40,
+      "inference_time_seconds": 0.01650849999998627,
+      "inference_throughput_rows_per_second": 2422.9942151033265
+    }
+  },
+  "model_path": "ml\\models\\synthetic_fixture\\random_forest.joblib"
+}

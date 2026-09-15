@@ -1,0 +1,178 @@
+{
+  "phase": "16-17",
+  "status": "EXECUTED for cryptographic benchmark analysis; ML analysis remains NOT EXECUTED YET",
+  "source_file": "experiments/results/crypto_benchmark_aggregated.json",
+  "n_aggregated_rows": 66,
+  "approved_algorithms": [
+    "AES-256-GCM",
+    "ECDH-X25519-Hybrid",
+    "RSA-OAEP-Hybrid"
+  ],
+  "legacy_baselines": [
+    "3DES",
+    "Blowfish",
+    "DES"
+  ],
+  "payload_sizes_bytes": [
+    1024,
+    10240,
+    51200,
+    102400,
+    256000,
+    512000,
+    1048576,
+    5242880,
+    10485760,
+    52428800,
+    104857600
+  ],
+  "crypto_benchmark_note": "These are the previously measured Phase 7 results on the sandbox hardware, not new deployment-hardware measurements.",
+  "ml_model_results": {
+    "status": "NOT EXECUTED YET",
+    "reason": "No real CICIDS2017 model-result JSON files were found.",
+    "files": []
+  },
+  "policy_regret": {
+    "status": "EXECUTED on existing measured Phase 7 benchmark output",
+    "metric": "total_operation_seconds.mean",
+    "feasible_options": [
+      "ECDH-X25519-Hybrid",
+      "RSA-OAEP-Hybrid"
+    ],
+    "policy_rule_modelled": "ECDH at <= 1 MiB; RSA above 1 MiB",
+    "n_payload_sizes": 11,
+    "matches": 4,
+    "selection_accuracy": 0.36363636363636365,
+    "records": [
+      {
+        "payload_size_bytes": 1024,
+        "policy_choice": "ECDH-X25519-Hybrid",
+        "measured_best_feasible_option": "RSA-OAEP-Hybrid",
+        "policy_matches_measured_best": false,
+        "policy_regret_seconds": 0.0006654417999811812,
+        "measured_options": {
+          "ECDH-X25519-Hybrid": 0.0007748659999833763,
+          "RSA-OAEP-Hybrid": 0.000109424200002195
+        }
+      },
+      {
+        "payload_size_bytes": 10240,
+        "policy_choice": "ECDH-X25519-Hybrid",
+        "measured_best_feasible_option": "RSA-OAEP-Hybrid",
+        "policy_matches_measured_best": false,
+        "policy_regret_seconds": 7.630300001437718e-05,
+        "measured_options": {
+          "ECDH-X25519-Hybrid": 0.0001739061999955993,
+          "RSA-OAEP-Hybrid": 9.760319998122213e-05
+        }
+      },
+      {
+        "payload_size_bytes": 51200,
+        "policy_choice": "ECDH-X25519-Hybrid",
+        "measured_best_feasible_option": "RSA-OAEP-Hybrid",
+        "policy_matches_measured_best": false,
+        "policy_regret_seconds": 9.046539997825676e-05,
+        "measured_options": {
+          "ECDH-X25519-Hybrid": 0.00017889559998138794,
+          "RSA-OAEP-Hybrid": 8.843020000313118e-05
+        }
+      },
+      {
+        "payload_size_bytes": 102400,
+        "policy_choice": "ECDH-X25519-Hybrid",
+        "measured_best_feasible_option": "RSA-OAEP-Hybrid",
+        "policy_matches_measured_best": false,
+        "policy_regret_seconds": 0.0001091341999767792,
+        "measured_options": {
+          "ECDH-X25519-Hybrid": 0.00020389059998251468,
+          "RSA-OAEP-Hybrid": 9.475640000573548e-05
+        }
+      },
+      {
+        "payload_size_bytes": 256000,
+        "policy_choice": "ECDH-X25519-Hybrid",
+        "measured_best_feasible_option": "RSA-OAEP-Hybrid",
+        "policy_matches_measured_best": false,
+        "policy_regret_seconds": 8.90273999971214e-05,
+        "measured_options": {
+          "ECDH-X25519-Hybrid": 0.0002178653999976632,
+          "RSA-OAEP-Hybrid": 0.0001288380000005418
+        }
+      },
+      {
+        "payload_size_bytes": 512000,
+        "policy_choice": "ECDH-X25519-Hybrid",
+        "measured_best_feasible_option": "RSA-OAEP-Hybrid",
+        "policy_matches_measured_best": false,
+        "policy_regret_seconds": 0.00011895459998640946,
+        "measured_options": {
+          "ECDH-X25519-Hybrid": 0.00028861359999154956,
+          "RSA-OAEP-Hybrid": 0.0001696590000051401
+        }
+      },
+      {
+        "payload_size_bytes": 1048576,
+        "policy_choice": "ECDH-X25519-Hybrid",
+        "measured_best_feasible_option": "RSA-OAEP-Hybrid",
+        "policy_matches_measured_best": false,
+        "policy_regret_seconds": 0.00011528379995979772,
+        "measured_options": {
+          "ECDH-X25519-Hybrid": 0.0003614353999751074,
+          "RSA-OAEP-Hybrid": 0.0002461516000153097
+        }
+      },
+      {
+        "payload_size_bytes": 5242880,
+        "policy_choice": "RSA-OAEP-Hybrid",
+        "measured_best_feasible_option": "RSA-OAEP-Hybrid",
+        "policy_matches_measured_best": true,
+        "policy_regret_seconds": 0.0,
+        "measured_options": {
+          "ECDH-X25519-Hybrid": 0.0010024334000036106,
+          "RSA-OAEP-Hybrid": 0.0008429063999869868
+        }
+      },
+      {
+        "payload_size_bytes": 10485760,
+        "policy_choice": "RSA-OAEP-Hybrid",
+        "measured_best_feasible_option": "RSA-OAEP-Hybrid",
+        "policy_matches_measured_best": true,
+        "policy_regret_seconds": 0.0,
+        "measured_options": {
+          "ECDH-X25519-Hybrid": 0.001969899800019448,
+          "RSA-OAEP-Hybrid": 0.0016212487999951008
+        }
+      },
+      {
+        "payload_size_bytes": 52428800,
+        "policy_choice": "RSA-OAEP-Hybrid",
+        "measured_best_feasible_option": "RSA-OAEP-Hybrid",
+        "policy_matches_measured_best": true,
+        "policy_regret_seconds": 0.0,
+        "measured_options": {
+          "ECDH-X25519-Hybrid": 0.03346597179996706,
+          "RSA-OAEP-Hybrid": 0.032299585600003414
+        }
+      },
+      {
+        "payload_size_bytes": 104857600,
+        "policy_choice": "RSA-OAEP-Hybrid",
+        "measured_best_feasible_option": "RSA-OAEP-Hybrid",
+        "policy_matches_measured_best": true,
+        "policy_regret_seconds": 0.0,
+        "measured_options": {
+          "ECDH-X25519-Hybrid": 0.07030243220001467,
+          "RSA-OAEP-Hybrid": 0.0667360229999872
+        }
+      }
+    ],
+    "interpretation": "This diagnostic does not alter the security policy or claim that RSA is universally superior. It reports the measured ordering on this hardware and must be rerun on deployment hardware."
+  },
+  "generated_files": [
+    "crypto_total_operation_seconds.png",
+    "crypto_throughput.png",
+    "crypto_overhead.png",
+    "policy_regret.csv",
+    "phase16_17_summary.json"
+  ]
+}

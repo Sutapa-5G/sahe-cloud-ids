@@ -1,0 +1,23 @@
+{
+  "strategy": "split-by-source-file (day/session aware)",
+  "seed": 42,
+  "train_files": [
+    "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+    "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+    "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+    "Monday-WorkingHours.pcap_ISCX.csv",
+    "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv"
+  ],
+  "validation_files": [
+    "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+    "Tuesday-WorkingHours.pcap_ISCX.csv"
+  ],
+  "test_files": [
+    "Wednesday-workingHours.pcap_ISCX.csv"
+  ],
+  "train_rows": 200,
+  "validation_rows": 80,
+  "test_rows": 40,
+  "dedup_policy": "exact-duplicate rows (per '_is_exact_duplicate') are NOT automatically dropped at split time; cross-split contamination is prevented by construction since each source_file is assigned to exactly one split. Within-split duplicate handling is a separate, explicit decision made in pipeline.py.",
+  "rationale": "No explicit file_assignment supplied; derived deterministically by alphabetically sorting discovered source_file values and slicing 60/20/20. This is a placeholder policy \u2014 replace with an explicit, documented assignment once real CICIDS2017 filenames/days are confirmed (see docs/methodology/preprocessing.md)."
+}
